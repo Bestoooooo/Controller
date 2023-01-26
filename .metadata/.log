@@ -1,0 +1,21 @@
+!SESSION 2023-01-27 01:07:31.051 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-01-27 01:08:00.541
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-01-27 01:08:00.609
+!MESSAGE Log4j initialized with config file C:\Users\bsere\OneDrive\Documents\Controller\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-01-27 01:08:03.123
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-27 01:09:11.523
+!MESSAGE Indexed 'Controller' (36 sources, 110 headers) in 3.47 sec: 9,964 declarations; 72,589 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0024%)
+
+!ENTRY org.eclipse.core.resources 4 566 2023-01-27 01:28:09.374
+!MESSAGE Workspace was not properly initialized or has already shutdown.

@@ -1,0 +1,929 @@
+2023-01-27 01:08:00,610 [INFO] Activator:179 - 
+
+
+2023-01-27 01:08:00,611 [INFO] Activator:180 - !SESSION log4j initialized
+2023-01-27 01:08:07,179 [INFO] McuFinderGlobals:52 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-01-27 01:08:07,511 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-01-27 01:08:07,525 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-01-27 01:08:07,526 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-01-27 01:08:07,527 [WARN] ApiDb:258 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-01-27 01:08:07,543 [INFO] ApiDb:249 - Set database path to: C:\Users\bsere\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-27 01:08:07,544 [INFO] DbMcusAds:124 - Set database path to: C:\Users\bsere\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-27 01:08:07,547 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\bsere\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-01-27 01:08:07,639 [INFO] RulesReader:61 - Compatibility file has been processed (283 Rules)
+2023-01-27 01:08:07,710 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-01-27 01:08:07,711 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-01-27 01:08:07,711 [INFO] ApiDb:260 - Set plugin images path to: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-01-27 01:08:07,711 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\bsere\.stmcufinder\plugins\mcufinder/ => C:\Users\bsere\.stmcufinder\plugins\mcufinder
+2023-01-27 01:08:07,711 [INFO] ApiDb:249 - Set database path to: C:\Users\bsere\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-27 01:08:07,712 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\bsere\.stmcufinder\plugins\mcufinder/ => C:\Users\bsere\.stmcufinder\plugins\mcufinder
+2023-01-27 01:08:07,712 [INFO] DbMcusAds:124 - Set database path to: C:\Users\bsere\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-27 01:08:07,712 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\bsere\.stmcufinder\plugins\mcufinder/ => C:\Users\bsere\.stmcufinder\plugins\mcufinder
+2023-01-27 01:08:07,712 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\bsere\.stmcufinder\plugins\mcufinder/ => C:\Users\bsere\.stmcufinder\plugins\mcufinder
+2023-01-27 01:08:07,713 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\bsere\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-01-27 01:08:07,781 [INFO] MainPanel:252 - HeapMemory: 268435456
+2023-01-27 01:08:07,865 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-01-27 01:08:07,865 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-01-27 01:08:07,866 [INFO] ApiDb:260 - Set plugin images path to: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-01-27 01:08:07,866 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\bsere\.stmcufinder\plugins\mcufinder/ => C:\Users\bsere\.stmcufinder\plugins\mcufinder
+2023-01-27 01:08:07,866 [INFO] ApiDb:249 - Set database path to: C:\Users\bsere\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-27 01:08:07,866 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\bsere\.stmcufinder\plugins\mcufinder/ => C:\Users\bsere\.stmcufinder\plugins\mcufinder
+2023-01-27 01:08:07,866 [INFO] DbMcusAds:124 - Set database path to: C:\Users\bsere\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-27 01:08:07,866 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\bsere\.stmcufinder\plugins\mcufinder/ => C:\Users\bsere\.stmcufinder\plugins\mcufinder
+2023-01-27 01:08:07,866 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\bsere\.stmcufinder\plugins\mcufinder/ => C:\Users\bsere\.stmcufinder\plugins\mcufinder
+2023-01-27 01:08:07,867 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\bsere\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-01-27 01:08:07,882 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-01-27 01:08:07,883 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2023-01-27 01:08:07,885 [INFO] PluginManage:307 - Check plugin analytics
+2023-01-27 01:08:08,001 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: 
+2023-01-27 01:08:08,001 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2023-01-27 01:08:08,002 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: 
+2023-01-27 01:08:08,008 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-01-27 01:08:08,009 [INFO] PluginManage:307 - Check plugin cadmodel
+2023-01-27 01:08:08,019 [INFO] CADModel:104 - Init CAD model plugin
+2023-01-27 01:08:08,020 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-01-27 01:08:08,020 [INFO] PluginManage:307 - Check plugin clock
+2023-01-27 01:08:08,034 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2023-01-27 01:08:08,035 [INFO] PluginManage:307 - Check plugin ddr
+2023-01-27 01:08:08,036 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-01-27 01:08:08,037 [INFO] PluginManage:307 - Check plugin filemanager
+2023-01-27 01:08:08,168 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-01-27 01:08:08,168 [INFO] PluginManage:307 - Check plugin ipmanager
+2023-01-27 01:08:08,174 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-01-27 01:08:08,174 [INFO] PluginManage:307 - Check plugin lpbam
+2023-01-27 01:08:08,188 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-01-27 01:08:08,188 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2023-01-27 01:08:08,200 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-01-27 01:08:08,200 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2023-01-27 01:08:08,229 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-01-27 01:08:08,229 [INFO] PluginManage:307 - Check plugin power
+2023-01-27 01:08:08,242 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2023-01-27 01:08:08,242 [INFO] PluginManage:307 - Check plugin projectmanager
+2023-01-27 01:08:08,253 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-01-27 01:08:08,253 [INFO] PluginManage:307 - Check plugin thirdparty
+2023-01-27 01:08:08,441 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-01-27 01:08:08,441 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2023-01-27 01:08:08,441 [INFO] PluginManage:307 - Check plugin tools
+2023-01-27 01:08:08,441 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2023-01-27 01:08:08,444 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-01-27 01:08:08,461 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2023-01-27 01:08:08,461 [INFO] PluginManage:307 - Check plugin tutovideos
+2023-01-27 01:08:08,631 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-01-27 01:08:08,631 [INFO] PluginManage:307 - Check plugin updater
+2023-01-27 01:08:08,642 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2023-01-27 01:08:08,643 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2023-01-27 01:08:08,836 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-01-27 01:08:08,887 [INFO] CADModel:164 - CPN selected for project level
+2023-01-27 01:08:08,887 [INFO] CADModel:113 - Register for checkConnection events
+2023-01-27 01:08:08,906 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:08,906 [INFO] PluginManager:219 - loadIPPluginJar : add adc
+2023-01-27 01:08:08,928 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:08,928 [INFO] PluginManager:219 - loadIPPluginJar : add aes
+2023-01-27 01:08:08,954 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:08,955 [INFO] PluginManager:219 - loadIPPluginJar : add can
+2023-01-27 01:08:08,969 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:08,969 [INFO] PluginManager:219 - loadIPPluginJar : add comp
+2023-01-27 01:08:08,990 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:08,990 [INFO] PluginManager:219 - loadIPPluginJar : add cryp
+2023-01-27 01:08:09,008 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,008 [INFO] PluginManager:219 - loadIPPluginJar : add dfsdm
+2023-01-27 01:08:09,019 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,019 [INFO] PluginManager:219 - loadIPPluginJar : add dma
+2023-01-27 01:08:09,045 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,046 [INFO] PluginManager:219 - loadIPPluginJar : add dma3
+2023-01-27 01:08:09,058 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,058 [INFO] PluginManager:219 - loadIPPluginJar : add fatfs
+2023-01-27 01:08:09,087 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,087 [INFO] PluginManager:219 - loadIPPluginJar : add fmc
+2023-01-27 01:08:09,098 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,098 [INFO] PluginManager:219 - loadIPPluginJar : add freertos
+2023-01-27 01:08:09,111 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,111 [INFO] PluginManager:219 - loadIPPluginJar : add genericplugin
+2023-01-27 01:08:09,165 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,165 [INFO] PluginManager:219 - loadIPPluginJar : add gfxmmu
+2023-01-27 01:08:09,245 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,245 [INFO] PluginManager:219 - loadIPPluginJar : add gic
+2023-01-27 01:08:09,254 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,254 [INFO] PluginManager:219 - loadIPPluginJar : add gpio
+2023-01-27 01:08:09,319 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,319 [INFO] PluginManager:219 - loadIPPluginJar : add gtzc
+2023-01-27 01:08:09,340 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,340 [INFO] PluginManager:219 - loadIPPluginJar : add hash
+2023-01-27 01:08:09,374 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,374 [INFO] PluginManager:219 - loadIPPluginJar : add i2c
+2023-01-27 01:08:09,400 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,400 [INFO] PluginManager:219 - loadIPPluginJar : add i2s
+2023-01-27 01:08:09,475 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,475 [INFO] PluginManager:219 - loadIPPluginJar : add ipddr
+2023-01-27 01:08:09,532 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,532 [INFO] PluginManager:219 - loadIPPluginJar : add linkedlist
+2023-01-27 01:08:09,553 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,553 [INFO] PluginManager:219 - loadIPPluginJar : add lorawan
+2023-01-27 01:08:09,582 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,582 [INFO] PluginManager:219 - loadIPPluginJar : add ltdc
+2023-01-27 01:08:09,593 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,593 [INFO] PluginManager:219 - loadIPPluginJar : add mdma
+2023-01-27 01:08:09,600 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,601 [INFO] PluginManager:219 - loadIPPluginJar : add nvic
+2023-01-27 01:08:09,623 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,624 [INFO] PluginManager:219 - loadIPPluginJar : add opamp
+2023-01-27 01:08:09,669 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,669 [INFO] PluginManager:219 - loadIPPluginJar : add openamp
+2023-01-27 01:08:09,695 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,695 [INFO] PluginManager:219 - loadIPPluginJar : add pdm2pcm
+2023-01-27 01:08:09,706 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,708 [INFO] PluginManager:219 - loadIPPluginJar : add plateformsettings
+2023-01-27 01:08:09,722 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,722 [INFO] PluginManager:219 - loadIPPluginJar : add quadspi
+2023-01-27 01:08:09,732 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,732 [INFO] PluginManager:219 - loadIPPluginJar : add resmgrutility
+2023-01-27 01:08:09,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,766 [INFO] PluginManager:219 - loadIPPluginJar : add sai
+2023-01-27 01:08:09,791 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,791 [INFO] PluginManager:219 - loadIPPluginJar : add spi
+2023-01-27 01:08:09,826 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,826 [INFO] PluginManager:219 - loadIPPluginJar : add stm32_wpan
+2023-01-27 01:08:09,841 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,841 [INFO] PluginManager:219 - loadIPPluginJar : add tim
+2023-01-27 01:08:09,878 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,878 [INFO] PluginManager:219 - loadIPPluginJar : add touchsensing
+2023-01-27 01:08:09,892 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,892 [INFO] PluginManager:219 - loadIPPluginJar : add tracer_emb
+2023-01-27 01:08:09,906 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,906 [INFO] PluginManager:219 - loadIPPluginJar : add ts
+2023-01-27 01:08:09,919 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,919 [INFO] PluginManager:219 - loadIPPluginJar : add tsc
+2023-01-27 01:08:09,932 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,932 [INFO] PluginManager:219 - loadIPPluginJar : add ucpd
+2023-01-27 01:08:09,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,960 [INFO] PluginManager:219 - loadIPPluginJar : add usart
+2023-01-27 01:08:09,987 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:09,988 [INFO] PluginManager:219 - loadIPPluginJar : add usbx
+2023-01-27 01:08:10,102 [INFO] CADModel:164 - CPN selected for project level
+2023-01-27 01:08:10,103 [INFO] CADModel:113 - Register for checkConnection events
+2023-01-27 01:08:10,103 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-01-27 01:08:10,103 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-01-27 01:08:10,213 [INFO] CADModel:164 - CPN selected for project level
+2023-01-27 01:08:10,213 [INFO] CADModel:113 - Register for checkConnection events
+2023-01-27 01:08:10,213 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-01-27 01:08:10,213 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-01-27 01:08:10,216 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-01-27 01:08:10,299 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-01-27 01:08:10,307 [INFO] DbMcusAds:52 - JSON generation date=Wed Jan 18 21:17:18 ICT 2023 (1674051438939)
+2023-01-27 01:08:10,307 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-01-27 01:08:10,366 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-01-27 01:08:10,477 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-01-27 01:08:10,479 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-01-27 01:08:10,479 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-01-27 01:08:10,479 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-01-27 01:08:10,480 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-01-27 01:08:10,524 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-01-27 01:08:10,531 [INFO] Updater:1056 - Updater Version found : 6.7.0
+2023-01-27 01:08:10,545 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-01-27 01:08:10,685 [INFO] MainUpdater:2800 - connection check result : 10
+2023-01-27 01:08:10,686 [INFO] MainUpdater:282 - Updater Check For Update Now.
+2023-01-27 01:08:10,686 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-01-27 01:08:10,864 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-01-27 01:08:10,923 [INFO] MainUpdater:2800 - connection check result : 10
+2023-01-27 01:08:11,292 [INFO] ApiDb:580 - Connected to CubeFinder SQLite database (C:\Users\bsere\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2023-01-27 01:08:11,337 [INFO] ApiDb:667 - CubeFinder database Data Model version=2.1
+2023-01-27 01:08:11,337 [INFO] ApiDb:668 - CubeFinder database Configuration version=3.0.35
+2023-01-27 01:08:11,337 [INFO] ApiDb:669 - CubeFinder database generation date=2023-01-11 (1673424164)
+2023-01-27 01:08:11,337 [INFO] ApiDb:670 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V1.1.1, STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WBA_V0.2.0, STM32Cube_FW_WB_V1.15.0, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V1.3.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-01-27 01:08:11,641 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2023-01-27 01:08:11,690 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-01-27 01:08:11,728 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-01-27 01:08:11,745 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2023-01-27 01:08:11,765 [WARN] PackLoader:242 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.3
+2023-01-27 01:08:11,778 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.5.4
+2023-01-27 01:08:11,790 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2023-01-27 01:08:11,804 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2023-01-27 01:08:11,817 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2023-01-27 01:08:11,829 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2023-01-27 01:08:11,841 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.2.0
+2023-01-27 01:08:11,857 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.2.0
+2023-01-27 01:08:11,888 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.0.0
+2023-01-27 01:08:11,900 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-01-27 01:08:11,911 [WARN] PackLoader:242 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2023-01-27 01:08:11,920 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.1
+2023-01-27 01:08:11,961 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.4.0
+2023-01-27 01:08:12,088 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.3.0
+2023-01-27 01:08:12,098 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2023-01-27 01:08:12,117 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2023-01-27 01:08:12,138 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2023-01-27 01:08:12,152 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2023-01-27 01:08:12,164 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2023-01-27 01:08:12,173 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.1
+2023-01-27 01:08:12,182 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.3.0
+2023-01-27 01:08:12,200 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2023-01-27 01:08:12,210 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2023-01-27 01:08:12,229 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2023-01-27 01:08:12,247 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2023-01-27 01:08:12,268 [WARN] PackLoader:242 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2023-01-27 01:08:12,276 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2023-01-27 01:08:12,295 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2023-01-27 01:08:12,332 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.0
+2023-01-27 01:08:12,366 [INFO] ThirdParty:947 - Integrity check success = true
+2023-01-27 01:08:12,366 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2023-01-27 01:08:12,367 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2023-01-27 01:08:13,080 [INFO] ApiDb:239 - Found 143 in-development CPN: [B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, STEVAL-PROTEUS1, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6, STM32WL5MOCH6TR]
+2023-01-27 01:08:13,084 [INFO] DbMcus:215 - Found 3582 MCUs, 3582 are supported
+2023-01-27 01:08:13,084 [INFO] ApiDb:413 - User favorites file not found: C:\Users\bsere/.stm32cubeide/favorites.mcus.txt
+2023-01-27 01:08:13,084 [INFO] DbMcus:221 - Set 0 / 0 favorites MCUs
+2023-01-27 01:08:13,271 [INFO] McuFinderGlobals:65 - Set McuFinderConnectedMode to true
+2023-01-27 01:08:13,277 [INFO] MultiScanPanel:196 - Auto-refresh data requested => check proxy status ongoing
+2023-01-27 01:08:13,279 [INFO] FinderPluginLoader:92 - Searching for filters in installed packs
+2023-01-27 01:08:14,271 [INFO] LoadUrlFilesThread:179 - End of LoadServerUrlFiles without Thread
+2023-01-27 01:08:14,299 [INFO] DetailPanel:339 - Set advertising image to C:/Users/bsere/STM32Cube/Repository/\en.prom-stm32c0-0123.jpg
+2023-01-27 01:08:14,952 [INFO] ApiDb:667 - CubeFinder database Data Model version=2.1
+2023-01-27 01:08:14,952 [INFO] ApiDb:668 - CubeFinder database Configuration version=3.0.35
+2023-01-27 01:08:14,952 [INFO] ApiDb:669 - CubeFinder database generation date=2023-01-11 (1673424164)
+2023-01-27 01:08:14,953 [INFO] ApiDb:670 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V1.1.1, STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WBA_V0.2.0, STM32Cube_FW_WB_V1.15.0, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V1.3.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-01-27 01:08:15,004 [INFO] DbBoardsSqlite:225 - include board P-NUCLEO-WB55-NUCLEO as a kit item of type 'Nucleo-64'
+2023-01-27 01:08:15,004 [INFO] DbBoardsSqlite:225 - include board P-NUCLEO-WB55-USBDONGLE as a kit item of type 'Nucleo USB Dongle'
+2023-01-27 01:08:15,005 [INFO] DbBoardsSqlite:225 - include board STEVAL-IDP005V1 as a kit item of type 'Evaluation Board'
+2023-01-27 01:08:15,005 [INFO] DbBoardsSqlite:225 - include board STEVAL-IDP005V2 as a kit item of type 'Evaluation Board'
+2023-01-27 01:08:15,036 [INFO] ApiDb:239 - Found 143 in-development CPN: [B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, STEVAL-PROTEUS1, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6, STM32WL5MOCH6TR]
+2023-01-27 01:08:15,135 [INFO] BoardInfo:879 - No configuration file found for board P-NUCLEO-WB55
+2023-01-27 01:08:15,135 [INFO] DbBoards:156 - Kit is not supported: P-NUCLEO-WB55
+2023-01-27 01:08:15,148 [INFO] BoardInfo:879 - No configuration file found for board STEVAL-BFA001V1B
+2023-01-27 01:08:15,148 [INFO] DbBoards:156 - Kit is not supported: STEVAL-BFA001V1B
+2023-01-27 01:08:15,149 [INFO] BoardInfo:879 - No configuration file found for board STEVAL-BFA001V2B
+2023-01-27 01:08:15,149 [INFO] DbBoards:156 - Kit is not supported: STEVAL-BFA001V2B
+2023-01-27 01:08:15,247 [INFO] DbBoards:160 - Found 179 boards, 176 are supported
+2023-01-27 01:08:15,251 [INFO] ApiDb:413 - User favorites file not found: C:\Users\bsere/.stm32cubeide/favorites.boards.txt
+2023-01-27 01:08:15,252 [INFO] DbBoards:189 - Set 0 / 0 favorites Boards
+2023-01-27 01:08:23,762 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-01-27 01:08:23,762 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-01-27 01:08:23,764 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-01-27 01:08:41,881 [INFO] MainUpdater:2800 - connection check result : 10
+2023-01-27 01:08:41,882 [INFO] MainUpdater:2800 - connection check result : 10
+2023-01-27 01:08:41,908 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-01-27 01:08:41,908 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-01-27 01:08:41,908 [WARN] ThirdParty:845 - waiting for thirdparty lock release [close project]
+2023-01-27 01:08:41,909 [INFO] ThirdParty:847 - entering critical section [close project]
+2023-01-27 01:08:41,910 [INFO] ThirdParty:857 - exiting critical section [close project]
+2023-01-27 01:08:41,914 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-01-27 01:08:41,918 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 293390392 Bytes (415236096)
+2023-01-27 01:08:41,919 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-01-27 01:08:41,919 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-01-27 01:08:41,919 [INFO] OpenFileManager:307 - Change cursor
+2023-01-27 01:08:41,948 [INFO] Mcu:1925 - Initializing MCU STM32F303C(B-C)Tx STM32F303CCTx STM32F303CCT6
+2023-01-27 01:08:43,499 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-01-27 01:08:44,132 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-01-27 01:08:44,132 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-01-27 01:08:44,132 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-01-27 01:08:44,132 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-01-27 01:08:44,133 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,140 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,141 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,142 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-27 01:08:44,174 [INFO] ThirdPartyModel:294 - Start build external matchings
+2023-01-27 01:08:44,401 [INFO] ThirdPartyModel:310 - End build external matchings
+2023-01-27 01:08:44,410 [INFO] RtosManager:802 - Current active RTOS is FREERTOS [Cortex-M4NS]
+2023-01-27 01:08:44,420 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM2Freq_Value)
+2023-01-27 01:08:44,420 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (72000000)
+2023-01-27 01:08:44,602 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 332751848 Bytes (415236096)
+2023-01-27 01:08:44,699 [WARN] ThirdParty:807 - waiting for thirdparty lock release [change project]
+2023-01-27 01:08:44,699 [INFO] ThirdParty:809 - entering critical section [change project]
+2023-01-27 01:08:44,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-01-27 01:08:44,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-01-27 01:08:44,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-01-27 01:08:44,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-01-27 01:08:44,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-01-27 01:08:44,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-01-27 01:08:44,701 [INFO] ThirdParty:815 - exiting critical section [change project]
+2023-01-27 01:08:45,068 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-01-27 01:08:45,069 [INFO] PinOutPanel:1477 - setPackage(STM32F303CCTx,LQFP48)
+2023-01-27 01:08:45,574 [INFO] UtilMem:74 - Before build in PCC Used Memory: 262902976 Bytes (415236096)
+2023-01-27 01:08:46,172 [INFO] UtilMem:74 - After build in PCC Used Memory: 256127032 Bytes (415236096)
+2023-01-27 01:08:46,239 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2023-01-27 01:08:46,258 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,258 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,258 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,259 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,260 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,260 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,260 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,260 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,260 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,260 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,260 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,260 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,261 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,261 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,261 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,261 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,261 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,261 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,262 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,262 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,262 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,262 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,262 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,263 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,263 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,263 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,263 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,263 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,264 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,264 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,264 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,264 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,264 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,264 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,265 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,265 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,265 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,265 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,266 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,266 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,266 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,266 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-27 01:08:46,313 [WARN] FreeRTOS:1022 - Null or empty value: should not occur! (nothing added to the table)
+2023-01-27 01:08:46,466 [INFO] CADModel:164 - CPN selected for project levelSTM32F303CCT6
+2023-01-27 01:08:46,466 [INFO] CADModel:113 - Register for checkConnection events
+2023-01-27 01:08:46,473 [INFO] RtosManager:615 - Active RTOS found at IOC load: FREERTOS [Cortex-M4NS]
+2023-01-27 01:08:46,533 [INFO] OpenFileManager:327 - Restore cursor
+2023-01-27 01:08:47,293 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 320419864 Bytes (415236096)
+2023-01-27 01:08:47,347 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 329854152 Bytes (415236096)
+2023-01-27 01:08:58,401 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-01-27 01:08:58,401 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F3
+2023-01-27 01:08:58,401 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-01-27 01:08:58,401 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-01-27 01:08:58,401 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-01-27 01:08:58,401 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-01-27 01:08:58,401 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-01-27 01:08:58,401 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-01-27 01:08:58,402 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-01-27 01:08:58,403 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\
+2023-01-27 01:08:58,744 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\license.tmp_save
+2023-01-27 01:08:59,067 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\license.tmp
+2023-01-27 01:08:59,243 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\gpio.tmp_save
+2023-01-27 01:08:59,389 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\gpio.tmp
+2023-01-27 01:09:00,278 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-27 01:09:00,289 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp_save
+2023-01-27 01:09:00,370 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp
+2023-01-27 01:09:00,378 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-01-27 01:09:00,448 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp
+2023-01-27 01:09:00,455 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-01-27 01:09:00,512 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp
+2023-01-27 01:09:00,519 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp_save
+2023-01-27 01:09:00,580 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp
+2023-01-27 01:09:00,588 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp_save
+2023-01-27 01:09:00,660 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp
+2023-01-27 01:09:00,668 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp_save
+2023-01-27 01:09:00,731 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp
+2023-01-27 01:09:00,738 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-01-27 01:09:00,810 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp
+2023-01-27 01:09:00,819 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp_save
+2023-01-27 01:09:00,887 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp
+2023-01-27 01:09:00,894 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp_save
+2023-01-27 01:09:00,961 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp
+2023-01-27 01:09:00,972 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-27 01:09:00,979 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp_save
+2023-01-27 01:09:01,084 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp
+2023-01-27 01:09:01,088 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-01-27 01:09:01,142 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp
+2023-01-27 01:09:01,146 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-01-27 01:09:01,198 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp
+2023-01-27 01:09:01,202 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp_save
+2023-01-27 01:09:01,256 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp
+2023-01-27 01:09:01,264 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp_save
+2023-01-27 01:09:01,317 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp
+2023-01-27 01:09:01,321 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp_save
+2023-01-27 01:09:01,374 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp
+2023-01-27 01:09:01,382 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-01-27 01:09:01,440 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp
+2023-01-27 01:09:01,445 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp_save
+2023-01-27 01:09:01,498 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp
+2023-01-27 01:09:01,502 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp_save
+2023-01-27 01:09:01,555 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp
+2023-01-27 01:09:01,565 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\FreeRTOSConfig.h_save
+2023-01-27 01:09:01,643 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\FreeRTOSConfig.h
+2023-01-27 01:09:01,651 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\freertos.c_save
+2023-01-27 01:09:01,729 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\freertos.c
+2023-01-27 01:09:01,743 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_it.c_save
+2023-01-27 01:09:01,839 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_it.c
+2023-01-27 01:09:01,846 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_it.h_save
+2023-01-27 01:09:01,905 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_it.h
+2023-01-27 01:09:01,919 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_hal_msp.c_save
+2023-01-27 01:09:02,019 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_hal_msp.c
+2023-01-27 01:09:02,030 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\system.tmp_save
+2023-01-27 01:09:02,088 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\system.tmp
+2023-01-27 01:09:02,101 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-01-27 01:09:02,177 [INFO] CodeEngine:327 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_hal_conf.h
+2023-01-27 01:09:02,208 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-01-27 01:09:02,209 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-27 01:09:02,219 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\main.h_save
+2023-01-27 01:09:02,307 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\main.h
+2023-01-27 01:09:02,315 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\main.c_save
+2023-01-27 01:09:02,472 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\main.c
+2023-01-27 01:09:03,192 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 178mS.
+2023-01-27 01:09:03,208 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-01-27 01:09:03,535 [INFO] ConfigFileManager:1396 - The Die is : DIE422
+2023-01-27 01:09:03,549 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2023-01-27 01:09:03,667 [INFO] ApiDbMcu:505 - Load IP Config File for TOUCHSENSING
+2023-01-27 01:09:03,689 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2023-01-27 01:09:08,087 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 4879mS.
+2023-01-27 01:09:08,088 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-27 01:09:08,093 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-27 01:09:08,571 [INFO] McuFinderGlobals:65 - Set McuFinderConnectedMode to true
+2023-01-27 01:09:08,574 [INFO] ApiDb:447 - Save user favorites file C:\Users\bsere/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-01-27 01:09:08,575 [INFO] ApiDb:451 - User favorites MCUs=[]
+2023-01-27 01:09:08,899 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: Native resources unavailable
+2023-01-27 01:09:08,900 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/sun.awt.windows.WWindowPeer.getScreenImOn(Native Method)
+2023-01-27 01:09:08,901 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/sun.awt.windows.WWindowPeer.updateGC(WWindowPeer.java:566)
+2023-01-27 01:09:08,902 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+2023-01-27 01:09:08,904 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2023-01-27 01:09:08,905 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2023-01-27 01:09:08,906 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2023-01-27 01:09:08,907 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2023-01-27 01:09:08,910 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2023-01-27 01:09:08,912 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+2023-01-27 01:09:08,913 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2023-01-27 01:09:08,914 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+2023-01-27 01:09:08,915 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2023-01-27 01:09:08,917 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2023-01-27 01:09:08,918 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+2023-01-27 01:09:08,920 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2023-01-27 01:09:08,921 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2023-01-27 01:09:08,923 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2023-01-27 01:09:08,925 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2023-01-27 01:09:08,926 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2023-01-27 01:09:08,927 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-01-27 01:09:23,949 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-01-27 01:09:38,474 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:09:38,474 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:09:38,475 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:09:38,475 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:09:38,475 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:09:38,475 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:09:44,099 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:09:44,099 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:09:44,100 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:09:44,100 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:09:44,100 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:09:44,100 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:10:15,528 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,482x316,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-27 01:10:28,340 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 491069472 Bytes (738197504)
+2023-01-27 01:10:30,849 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 591835952 Bytes (738197504)
+2023-01-27 01:10:57,576 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-01-27 01:11:49,643 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 607265528 Bytes (738197504)
+2023-01-27 01:11:51,357 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-01-27 01:11:51,357 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F3
+2023-01-27 01:11:51,357 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-01-27 01:11:51,357 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-01-27 01:11:51,357 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-01-27 01:11:51,357 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-01-27 01:11:51,357 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-01-27 01:11:51,357 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-01-27 01:11:51,358 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-01-27 01:11:51,359 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\
+2023-01-27 01:11:51,548 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\license.tmp_save
+2023-01-27 01:11:51,632 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\license.tmp
+2023-01-27 01:11:51,744 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\gpio.tmp_save
+2023-01-27 01:11:51,854 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\gpio.tmp
+2023-01-27 01:11:52,453 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-27 01:11:52,458 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp_save
+2023-01-27 01:11:52,519 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp
+2023-01-27 01:11:52,522 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-01-27 01:11:52,574 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp
+2023-01-27 01:11:52,576 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-01-27 01:11:52,621 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp
+2023-01-27 01:11:52,623 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp_save
+2023-01-27 01:11:52,669 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp
+2023-01-27 01:11:52,671 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp_save
+2023-01-27 01:11:52,733 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp
+2023-01-27 01:11:52,735 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp_save
+2023-01-27 01:11:52,788 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp
+2023-01-27 01:11:52,791 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-01-27 01:11:52,844 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp
+2023-01-27 01:11:52,846 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp_save
+2023-01-27 01:11:52,895 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp
+2023-01-27 01:11:52,897 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp_save
+2023-01-27 01:11:52,953 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp
+2023-01-27 01:11:52,961 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-27 01:11:52,967 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp_save
+2023-01-27 01:11:53,026 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp
+2023-01-27 01:11:53,029 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-01-27 01:11:53,075 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp
+2023-01-27 01:11:53,078 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-01-27 01:11:53,122 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp
+2023-01-27 01:11:53,125 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp_save
+2023-01-27 01:11:53,169 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp
+2023-01-27 01:11:53,177 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp_save
+2023-01-27 01:11:53,227 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp
+2023-01-27 01:11:53,230 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp_save
+2023-01-27 01:11:53,275 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp
+2023-01-27 01:11:53,282 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-01-27 01:11:53,329 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp
+2023-01-27 01:11:53,332 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp_save
+2023-01-27 01:11:53,379 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp
+2023-01-27 01:11:53,383 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp_save
+2023-01-27 01:11:53,429 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp
+2023-01-27 01:11:53,436 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\FreeRTOSConfig.h_save
+2023-01-27 01:11:53,501 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\FreeRTOSConfig.h
+2023-01-27 01:11:53,511 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\freertos.c_save
+2023-01-27 01:11:53,568 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\freertos.c
+2023-01-27 01:11:53,584 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_it.c_save
+2023-01-27 01:11:53,658 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_it.c
+2023-01-27 01:11:53,662 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_it.h_save
+2023-01-27 01:11:53,729 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_it.h
+2023-01-27 01:11:53,743 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_hal_msp.c_save
+2023-01-27 01:11:53,839 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_hal_msp.c
+2023-01-27 01:11:53,842 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\system.tmp_save
+2023-01-27 01:11:53,891 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\system.tmp
+2023-01-27 01:11:53,900 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-01-27 01:11:53,970 [INFO] CodeEngine:327 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_hal_conf.h
+2023-01-27 01:11:53,991 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-01-27 01:11:53,991 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-27 01:11:54,000 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\main.h_save
+2023-01-27 01:11:54,064 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\main.h
+2023-01-27 01:11:54,072 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\main.c_save
+2023-01-27 01:11:54,172 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\main.c
+2023-01-27 01:11:54,697 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 137mS.
+2023-01-27 01:11:54,701 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-01-27 01:11:54,954 [INFO] ConfigFileManager:1396 - The Die is : DIE422
+2023-01-27 01:11:56,137 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1436mS.
+2023-01-27 01:11:56,137 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-27 01:11:56,141 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-27 01:13:07,845 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:13:07,845 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:13:07,845 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:13:07,845 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:13:07,845 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:13:07,845 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:17:27,483 [INFO] EditThreadDialog:703 - RAM SIZE (in KB): 40
+2023-01-27 01:17:27,483 [INFO] EditThreadDialog:705 - RAM SIZE (in words): 10240
+2023-01-27 01:21:19,962 [INFO] EditThreadDialog:703 - RAM SIZE (in KB): 40
+2023-01-27 01:21:19,962 [INFO] EditThreadDialog:705 - RAM SIZE (in words): 10240
+2023-01-27 01:21:28,806 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:21:28,806 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:21:28,806 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:21:28,806 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:21:28,806 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:21:28,806 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:21:36,117 [INFO] EditThreadDialog:703 - RAM SIZE (in KB): 40
+2023-01-27 01:21:36,117 [INFO] EditThreadDialog:705 - RAM SIZE (in words): 10240
+2023-01-27 01:22:29,522 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:22:29,522 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:22:29,523 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:22:29,523 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:22:29,523 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:22:29,523 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:22:42,370 [INFO] EditThreadDialog:703 - RAM SIZE (in KB): 40
+2023-01-27 01:22:42,370 [INFO] EditThreadDialog:705 - RAM SIZE (in words): 10240
+2023-01-27 01:23:05,887 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:23:05,887 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:23:05,887 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:23:05,887 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:23:05,887 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:23:05,887 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:23:05,887 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:23:05,887 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:23:05,887 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:23:08,895 [INFO] EditThreadDialog:703 - RAM SIZE (in KB): 40
+2023-01-27 01:23:08,895 [INFO] EditThreadDialog:705 - RAM SIZE (in words): 10240
+2023-01-27 01:23:28,351 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:23:28,351 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:23:28,351 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:23:28,351 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:23:28,351 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:23:28,351 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:23:28,351 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:23:28,351 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:23:28,351 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:23:28,351 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-01-27 01:23:28,351 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-01-27 01:23:28,351 [WARN] TasksAndQueuesTab:774 - max value is: 768.0
+2023-01-27 01:23:41,803 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 564303408 Bytes (899678208)
+2023-01-27 01:23:43,110 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 594189872 Bytes (899678208)
+2023-01-27 01:23:44,498 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-01-27 01:23:44,498 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F3
+2023-01-27 01:23:44,498 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-01-27 01:23:44,498 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-01-27 01:23:44,498 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-01-27 01:23:44,498 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-01-27 01:23:44,498 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-01-27 01:23:44,498 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-01-27 01:23:44,498 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-01-27 01:23:44,499 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\
+2023-01-27 01:23:44,629 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\license.tmp_save
+2023-01-27 01:23:44,699 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\license.tmp
+2023-01-27 01:23:44,773 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\gpio.tmp_save
+2023-01-27 01:23:44,846 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\gpio.tmp
+2023-01-27 01:23:45,334 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-27 01:23:45,338 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp_save
+2023-01-27 01:23:45,401 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp
+2023-01-27 01:23:45,403 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-01-27 01:23:45,451 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp
+2023-01-27 01:23:45,453 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-01-27 01:23:45,498 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp
+2023-01-27 01:23:45,500 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp_save
+2023-01-27 01:23:45,546 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp
+2023-01-27 01:23:45,549 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp_save
+2023-01-27 01:23:45,613 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp
+2023-01-27 01:23:45,616 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp_save
+2023-01-27 01:23:45,667 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp
+2023-01-27 01:23:45,670 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-01-27 01:23:45,729 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp
+2023-01-27 01:23:45,731 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp_save
+2023-01-27 01:23:45,783 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp
+2023-01-27 01:23:45,785 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp_save
+2023-01-27 01:23:45,837 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp
+2023-01-27 01:23:45,844 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-27 01:23:45,849 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp_save
+2023-01-27 01:23:45,908 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp
+2023-01-27 01:23:45,914 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-01-27 01:23:45,975 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp
+2023-01-27 01:23:45,979 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-01-27 01:23:46,023 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp
+2023-01-27 01:23:46,027 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp_save
+2023-01-27 01:23:46,072 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp
+2023-01-27 01:23:46,079 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp_save
+2023-01-27 01:23:46,126 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp
+2023-01-27 01:23:46,130 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp_save
+2023-01-27 01:23:46,175 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp
+2023-01-27 01:23:46,182 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-01-27 01:23:46,228 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp
+2023-01-27 01:23:46,232 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp_save
+2023-01-27 01:23:46,281 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp
+2023-01-27 01:23:46,285 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp_save
+2023-01-27 01:23:46,331 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp
+2023-01-27 01:23:46,338 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\FreeRTOSConfig.h_save
+2023-01-27 01:23:46,392 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\FreeRTOSConfig.h
+2023-01-27 01:23:46,400 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\freertos.c_save
+2023-01-27 01:23:46,450 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\freertos.c
+2023-01-27 01:23:46,465 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_it.c_save
+2023-01-27 01:23:46,623 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_it.c
+2023-01-27 01:23:46,628 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_it.h_save
+2023-01-27 01:23:46,686 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_it.h
+2023-01-27 01:23:46,718 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_hal_msp.c_save
+2023-01-27 01:23:46,825 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_hal_msp.c
+2023-01-27 01:23:46,828 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\system.tmp_save
+2023-01-27 01:23:46,879 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\system.tmp
+2023-01-27 01:23:46,888 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-01-27 01:23:46,956 [INFO] CodeEngine:327 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_hal_conf.h
+2023-01-27 01:23:46,975 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-01-27 01:23:46,975 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-27 01:23:46,983 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\main.h_save
+2023-01-27 01:23:47,058 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\main.h
+2023-01-27 01:23:47,066 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\main.c_save
+2023-01-27 01:23:47,190 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\main.c
+2023-01-27 01:23:47,612 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 131mS.
+2023-01-27 01:23:47,615 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-01-27 01:23:47,887 [INFO] ConfigFileManager:1396 - The Die is : DIE422
+2023-01-27 01:23:48,729 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1113mS.
+2023-01-27 01:23:48,729 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-27 01:23:48,732 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-27 01:24:27,127 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-27 01:24:29,301 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 547753984 Bytes (899678208)
+2023-01-27 01:24:30,468 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 578162688 Bytes (899678208)
+2023-01-27 01:24:31,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-01-27 01:24:31,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F3
+2023-01-27 01:24:31,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-01-27 01:24:31,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-01-27 01:24:31,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-01-27 01:24:31,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-01-27 01:24:31,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-01-27 01:24:31,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-01-27 01:24:31,692 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-01-27 01:24:31,692 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\
+2023-01-27 01:24:31,822 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\license.tmp_save
+2023-01-27 01:24:31,884 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\license.tmp
+2023-01-27 01:24:31,946 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\gpio.tmp_save
+2023-01-27 01:24:32,008 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\gpio.tmp
+2023-01-27 01:24:32,502 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-27 01:24:32,506 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp_save
+2023-01-27 01:24:32,567 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp
+2023-01-27 01:24:32,569 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-01-27 01:24:32,618 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp
+2023-01-27 01:24:32,620 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-01-27 01:24:32,665 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp
+2023-01-27 01:24:32,666 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp_save
+2023-01-27 01:24:32,711 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp
+2023-01-27 01:24:32,713 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp_save
+2023-01-27 01:24:32,762 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp
+2023-01-27 01:24:32,764 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp_save
+2023-01-27 01:24:32,808 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp
+2023-01-27 01:24:32,810 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-01-27 01:24:32,858 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp
+2023-01-27 01:24:32,861 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp_save
+2023-01-27 01:24:32,910 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp
+2023-01-27 01:24:32,912 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp_save
+2023-01-27 01:24:32,956 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp
+2023-01-27 01:24:32,963 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-27 01:24:32,967 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp_save
+2023-01-27 01:24:33,029 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp
+2023-01-27 01:24:33,035 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-01-27 01:24:33,078 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp
+2023-01-27 01:24:33,082 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-01-27 01:24:33,126 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp
+2023-01-27 01:24:33,129 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp_save
+2023-01-27 01:24:33,173 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp
+2023-01-27 01:24:33,181 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp_save
+2023-01-27 01:24:33,227 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp
+2023-01-27 01:24:33,231 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp_save
+2023-01-27 01:24:33,285 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp
+2023-01-27 01:24:33,292 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-01-27 01:24:33,338 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp
+2023-01-27 01:24:33,342 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp_save
+2023-01-27 01:24:33,390 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp
+2023-01-27 01:24:33,394 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp_save
+2023-01-27 01:24:33,438 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp
+2023-01-27 01:24:33,445 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\FreeRTOSConfig.h_save
+2023-01-27 01:24:33,498 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\FreeRTOSConfig.h
+2023-01-27 01:24:33,505 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\freertos.c_save
+2023-01-27 01:24:33,554 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\freertos.c
+2023-01-27 01:24:33,566 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_it.c_save
+2023-01-27 01:24:33,625 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_it.c
+2023-01-27 01:24:33,629 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_it.h_save
+2023-01-27 01:24:33,674 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_it.h
+2023-01-27 01:24:33,685 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_hal_msp.c_save
+2023-01-27 01:24:33,761 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_hal_msp.c
+2023-01-27 01:24:33,763 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\system.tmp_save
+2023-01-27 01:24:33,809 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\system.tmp
+2023-01-27 01:24:33,817 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-01-27 01:24:33,884 [INFO] CodeEngine:327 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_hal_conf.h
+2023-01-27 01:24:33,903 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-01-27 01:24:33,904 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-27 01:24:33,912 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\main.h_save
+2023-01-27 01:24:33,969 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\main.h
+2023-01-27 01:24:33,976 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\main.c_save
+2023-01-27 01:24:34,093 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\main.c
+2023-01-27 01:24:34,561 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 127mS.
+2023-01-27 01:24:34,564 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-01-27 01:24:34,732 [INFO] ConfigFileManager:1396 - The Die is : DIE422
+2023-01-27 01:24:35,581 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1017mS.
+2023-01-27 01:24:35,582 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2023-01-27 01:24:35,585 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-27 01:25:24,492 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 434700400 Bytes (937426944)
+2023-01-27 01:25:26,055 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-01-27 01:25:26,055 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F3
+2023-01-27 01:25:26,055 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-01-27 01:25:26,055 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-01-27 01:25:26,055 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-01-27 01:25:26,055 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-01-27 01:25:26,055 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-01-27 01:25:26,055 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-01-27 01:25:26,056 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-01-27 01:25:26,056 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\
+2023-01-27 01:25:26,184 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\license.tmp_save
+2023-01-27 01:25:26,246 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\license.tmp
+2023-01-27 01:25:26,310 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\gpio.tmp_save
+2023-01-27 01:25:26,372 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\gpio.tmp
+2023-01-27 01:25:26,878 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-27 01:25:26,882 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp_save
+2023-01-27 01:25:26,942 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp
+2023-01-27 01:25:26,944 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-01-27 01:25:26,995 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp
+2023-01-27 01:25:26,997 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-01-27 01:25:27,042 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp
+2023-01-27 01:25:27,044 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp_save
+2023-01-27 01:25:27,089 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp
+2023-01-27 01:25:27,091 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp_save
+2023-01-27 01:25:27,140 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp
+2023-01-27 01:25:27,142 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp_save
+2023-01-27 01:25:27,188 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp
+2023-01-27 01:25:27,190 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-01-27 01:25:27,240 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp
+2023-01-27 01:25:27,243 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp_save
+2023-01-27 01:25:27,291 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp
+2023-01-27 01:25:27,294 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp_save
+2023-01-27 01:25:27,340 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp
+2023-01-27 01:25:27,347 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-27 01:25:27,352 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp_save
+2023-01-27 01:25:27,415 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_inc.tmp
+2023-01-27 01:25:27,422 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-01-27 01:25:27,467 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelInit.tmp
+2023-01-27 01:25:27,470 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-01-27 01:25:27,514 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_kernelStart.tmp
+2023-01-27 01:25:27,517 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp_save
+2023-01-27 01:25:27,563 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_typedefs.tmp
+2023-01-27 01:25:27,570 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp_save
+2023-01-27 01:25:27,616 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_vars.tmp
+2023-01-27 01:25:27,620 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp_save
+2023-01-27 01:25:27,665 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_pfp.tmp
+2023-01-27 01:25:27,672 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-01-27 01:25:27,718 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_obj_creat.tmp
+2023-01-27 01:25:27,721 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp_save
+2023-01-27 01:25:27,770 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_default_thread.tmp
+2023-01-27 01:25:27,774 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp_save
+2023-01-27 01:25:27,835 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\rtos_threads.tmp
+2023-01-27 01:25:27,843 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\FreeRTOSConfig.h_save
+2023-01-27 01:25:27,928 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\FreeRTOSConfig.h
+2023-01-27 01:25:27,935 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\freertos.c_save
+2023-01-27 01:25:27,984 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\freertos.c
+2023-01-27 01:25:27,996 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_it.c_save
+2023-01-27 01:25:28,055 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_it.c
+2023-01-27 01:25:28,058 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_it.h_save
+2023-01-27 01:25:28,103 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_it.h
+2023-01-27 01:25:28,113 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_hal_msp.c_save
+2023-01-27 01:25:28,189 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\stm32f3xx_hal_msp.c
+2023-01-27 01:25:28,191 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\system.tmp_save
+2023-01-27 01:25:28,238 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\MXTmpFiles\system.tmp
+2023-01-27 01:25:28,247 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-01-27 01:25:28,314 [INFO] CodeEngine:327 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\stm32f3xx_hal_conf.h
+2023-01-27 01:25:28,333 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-01-27 01:25:28,333 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-27 01:25:28,341 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\main.h_save
+2023-01-27 01:25:28,401 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Inc\main.h
+2023-01-27 01:25:28,408 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\main.c_save
+2023-01-27 01:25:28,521 [INFO] CodeEngine:271 - Generated code: C:\Users\bsere\OneDrive\Documents\Controller\Controller\Core\Src\main.c
+2023-01-27 01:25:28,930 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 125mS.
+2023-01-27 01:25:28,933 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-01-27 01:25:29,218 [INFO] ConfigFileManager:1396 - The Die is : DIE422
+2023-01-27 01:25:29,968 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1035mS.
+2023-01-27 01:25:29,969 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-27 01:25:29,973 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-27 01:28:07,225 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-01-27 01:28:09,178 [INFO] WebAppUi:459 - Close the Jxbrowser engine manually
+2023-01-27 01:28:09,204 [INFO] WebAppUi:462 - Profiles folder deleted
+2023-01-27 01:28:09,404 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
